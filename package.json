@@ -1,0 +1,15 @@
+{
+  "name": "mcp-web-doctor",
+  "version": "1.0.0",
+  "description": "Zero-dependency MCP Server & CLI for auditing Core Web Vitals, SEO, CSS bloat, broken links, and WCAG/APCA contrast.",
+  "main": "src/auditor.js",
+  "bin": {
+    "mcp-web-doctor": "bin/cli.js"
+  },
+  "scripts": {
+    "mcp": "node bin/cli.js mcp",
+    "test": "node test/run.js"
+  },
+  "keywords": ["mcp", "seo", "core-web-vitals", "accessibility", "apca", "cli", "ai-agent"],
+  "license": "MIT"
+}
